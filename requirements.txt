@@ -1,6 +1,5 @@
-﻿@"
-fastapi>=0.100.0
+﻿fastapi>=0.100.0
 uvicorn[standard]>=0.22.0
 pydantic[email]>=2.0.0
 pydantic-settings>=2.0.0
-"@ | Out-File -Encoding utf8 requirements.txt
+sqlalchemy>=2.0.0
